@@ -140,6 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="HelloWorld.c" />
+    <ClCompile Include="UserDefineCFile.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UserHeaderFile.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
