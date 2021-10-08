@@ -1,7 +1,7 @@
 #include <stdio.h>
+__inline int square(int a) { return a * a; }
+int main(int argc, char** argv) {
+    printf("%d", square(3));
 
-int main()
-{
-	printf("Hello World\n");
-	return 0;
+    return 0;
 }
